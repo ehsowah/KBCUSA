@@ -19,12 +19,15 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 10%;
+    /* background-color: azure; */
 }
 
 .logo {
     cursor: pointer;
     margin-right: auto;
+    width: 100px;
+    height: auto;
 }
 
 .nav_links {
@@ -104,3 +107,4 @@ button:hover {
         flex-direction: column;
     }
 }
+
