@@ -12,3 +12,13 @@ footer p, address {
     font-weight: 500;
     font-size: 15px;
 }
+
+  .bi-youtube {
+    color: #dd4b39;
+    /* margin: 5px 20px; */
+  }
+
+  .bi-youtube:hover {
+      opacity: 0.7;
+  }
+
