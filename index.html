@@ -5,7 +5,7 @@
         <title>KBCUSA</title>
         <link rel="stylesheet" href="navigation.css">
         <link rel="stylesheet" href="footer.css">
-        
+       
     </head>
 
     <body>
@@ -20,26 +20,40 @@
 
             <nav>
                 <ul class="nav_links">
-                    <li><a herf="#">About Us</a></li>
-                    <li><a herf="#">Ministries</a></li>
-                    <li><a herf="#">Partner Ministries</a></li>
-                    <li><a herf="#">Events</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Karen Devotional</a></li>
+                    <li class="lang" key="about us"><a herf="#">About Us</a></li>
+                    <li class="lang" key="ministries"><a herf="#">Ministries</a></li>
+                    <li class="lang" key="partnerMinistries"><a herf="#">Partner Ministries</a></li>
+                    <li class="lang" key="events"><a herf="#">Events</a></li>
+                    <li class="lang" key="news"><a href="#">News</a></li>
+                    <li class="lang" key="karenDevotional"><a href="#">Karen Devotional</a></li>
+                    <li class="lang" key="give"><a href="#">Give</a></li>
                 </ul>
             </nav>
-            <a class="cta" href="#"><button>Give</button></a>
+
+            <!-- Language switcher -->
+            <div class="lang-menu">
+                <div class="selected-lang">
+                    <button class="lang" key="language">English</button>
+                </div>
+                <ul>
+                    <li><a>English</a></li>
+                    <li><a>Karen</a></li>
+                </ul>
+            </div>
+
         </header>
 
         <!-- Landing image -->
         <div class="hero-image">
             <div class="hero-text">
-                <h1>Welcome to our Website</h1>
-                
+                <h1 class="lang" key="welcome">Welcome to our Website</h1>
             </div>
         </div>
 
+        
         <script src="myScript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="language.js"></script>    
     </body>
 
     <footer>
