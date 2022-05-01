@@ -4,14 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a;
 }
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: #444444;
     text-decoration: none;
 }
 
@@ -20,7 +19,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 10px 10%;
-    /* background-color: azure; */
+    background-color: white;
 }
 
 .logo {
@@ -50,15 +49,27 @@ header {
 button {
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(0, 136, 169);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    color: white;
 }
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.192), rgba(0,0,0,0.308)), url("image/landingImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .toggle-button {
@@ -75,7 +86,7 @@ button:hover {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: white;
+    background-color: rgb(59, 59, 59);
     border-radius: 10px;
 }
 
