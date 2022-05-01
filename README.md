@@ -10,4 +10,8 @@
  ### Language switch
  https://www.youtube.com/watch?v=Tjt_u_OSh40
  https://www.youtube.com/watch?v=ByraB2uMAiM
+
+ ### font issues
+ https://stackoverflow.com/questions/9389644/font-face-not-working-with-safari-in-mac-os-or-in-ipad
+ 
  
