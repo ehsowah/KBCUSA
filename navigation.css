@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@font-face {
+    font-family: 'Saw cfcr000';
+    src: url('Saw cfcr000.eot?#iefix') format('embedded-opentype'), 
+    url('Saw cfcr000.ttf')  format('truetype'),
+    url('Saw cfcr000.svg#svgSaw cfcr000') format('svg');
+  }
 
 * {
     box-sizing: border-box;
