@@ -123,6 +123,11 @@ button:hover {
         display: flex;
         flex-direction: column;
     }
+
+    .lang-menu {
+        display: none;
+    }
+
 }
 
 .hero-text {
