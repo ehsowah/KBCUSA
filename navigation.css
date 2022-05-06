@@ -67,17 +67,6 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-.hero-image {
-    background-image: linear-gradient(rgba(0,0,0,0.192), rgba(0,0,0,0.308)), url("image/landingImg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .toggle-button {
     position: absolute;
     top: .75rem;

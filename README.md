@@ -14,4 +14,6 @@
  ### font issues
  https://stackoverflow.com/questions/9389644/font-face-not-working-with-safari-in-mac-os-or-in-ipad
  
+ ### slide show
+ https://www.w3schools.com/howto/howto_js_slideshow.asp
  
