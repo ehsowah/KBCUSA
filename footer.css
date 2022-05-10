@@ -13,6 +13,10 @@ footer p, address {
     font-size: 15px;
 }
 
+footer a {
+  color: white;
+}
+
   .bi-youtube {
     color: #dd4b39;
     /* margin: 5px 20px; */
