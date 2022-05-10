@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px 10%;
+    padding: 10px 5%;
     background-color: white;
 }
 
@@ -55,7 +55,7 @@ header {
 button {
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgb(0, 136, 169);
+    background-color: rgb(115,198,240);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -64,7 +64,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgb(93, 155, 187);
 }
 
 .toggle-button {
@@ -85,7 +85,13 @@ button:hover {
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1500px) {
+    li, a, button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1300px) {
     .toggle-button {
         display: flex;
     }
@@ -111,6 +117,7 @@ button:hover {
     .nav_links.active {
         display: flex;
         flex-direction: column;
+        background-color: white;
     }
 
     .lang-menu {
@@ -119,45 +126,38 @@ button:hover {
 
 }
 
-.hero-text {
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.lang-menu {
-    margin: 25px;
+.tooltip {
     position: relative;
-}
-
-.lang-menu ul {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.192);
-    border-radius: 5px;
-    display: none;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 210px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
     position: absolute;
-    top: 37px;
-    left: 20px;
-}
-
-.lang-menu ul li {
-    list-style: none;
-}
-
-.lang-menu ul li a {
-    width: 125px;
-    display: block;
-    padding: 5px 10px;
-}
-
-.lang-menu ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.068);
-}
-
-.lang-menu:hover ul {
-    display: block;
-}
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

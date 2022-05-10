@@ -1,11 +1,18 @@
 $(document).ready(function() {
-    $("li a").click( evt => {
+    
 
-        if (evt.currentTarget.text == "Karen") {
-            loadKarenLanguage();
-        } else if (evt.currentTarget.text == "English") {
-            loadEnglishLanguage();
+    $(".lang-menu").click( evt => {
+       
+
+        if (evt.currentTarget.id == "ka") {
+            $("#nav-placeholder").load("navigationBar.html");
+            
+        } else if (evt.currentTarget.id == "en"){
+            $("#nav-placeholder").load("navigationBarEnglish.html");
+        
         }
+
+        
     });
 });
 
@@ -16,18 +23,17 @@ function loadKarenLanguage() {
         
         $(".lang").each(function(index, element) {
             $(this).text(data.karen[$(this).attr('key')]);
-            $(this).css("font-family","Saw cfcr000")
-            $(this).css("font-size", "23px");
+            
             $("h1").css("font-size", "60px");
 
-            $(this).hover(function(){
-                $(this).css("color", "#0088a9");
-                $("h1").css("color", "white");
-                }, function(){
-                $(this).css("color", "black");
-                $("button").css("color", "white");
-                $("h1").css("color", "white");
-              });
+            // $(this).hover(function(){
+            //     $(this).css("color", "#0088a9");
+            //     $("h1").css("color", "white");
+            //     }, function(){
+            //     $(this).css("color", "black");
+            //     $("button").css("color", "white");
+            //     $("h1").css("color", "white");
+            //   });
               
         })
     })
