@@ -1,5 +1,5 @@
-.hero-image {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.192), rgba(129, 162, 189, 0.308));
+.container {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.308));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 10%;
 }
 
 .hero-text {
@@ -14,6 +15,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
+
 }
 
 * {box-sizing: border-box}
@@ -112,4 +114,15 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.container .contentRow {
+  display:block;
+  justify-content:space-around;
+ padding-left: 20px;
+ 
+}
+
+.contentRow h1{
+  text-align-last: center;
 }

@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 function loadKarenLanguage() {
     $.ajax({
-        url: "language.json"
+        url: "json/language.json"
     }).done(function(data) {
         
         $(".lang").each(function(index, element) {
