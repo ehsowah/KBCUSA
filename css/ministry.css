@@ -4,7 +4,7 @@
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     width: 20%;
-    height: 1500px;
+    height: 2000px;
   }
   
   /* Style the buttons inside the tab */
@@ -39,7 +39,7 @@
     border: 1px solid #ccc;
     width: 80%;
     border-left: none;
-    height: 1500px;
+    height: 2000px;
     
   }
 
@@ -48,7 +48,7 @@
   }
 
   .containerMinistry {
-    /* background-image: linear-gradient(rgba(226, 187, 187, 0), rgba(27, 185, 233, 0)); */
+    /* background-image: linear-gradient(rgb(115,198,240), rgb(115,198,240)); */
      /* background-position: center; 
     background-repeat: no-repeat;
     background-size: cover; 
@@ -57,4 +57,16 @@
     justify-content: center;
     align-items: center;
     padding: 10px 10%;
+}
+
+.topContainer {
+  background-image: linear-gradient(rgb(115,198,240), rgb(115,198,240));
+   /* background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10%;
 }
