@@ -1,14 +1,15 @@
 /* Style the tab */
-.tab {
+.tab, .tab2 {
     float: left;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     width: 20%;
-    height: 2000px;
+    height: 500px;
+    overflow: auto;
   }
   
   /* Style the buttons inside the tab */
-  .tab button {
+  .tab button, .tab2 button {
     display: block;
     background-color: inherit;
     color: black;
@@ -23,7 +24,7 @@
   }
   
   /* Change background color of buttons on hover */
-  .tab button:hover {
+  .tab button:hover, .tab2 button:hover {
     background-color: #ddd;
   }
   
@@ -33,17 +34,18 @@
   }
   
   /* Style the tab content */
-  .tabcontent {
+  .tabcontent, .tabcontent2 {
     float: left;
     padding: 0px 12px;
     border: 1px solid #ccc;
     width: 80%;
     border-left: none;
-    height: 2000px;
+    height: 500px;
+    overflow: auto;
     
   }
 
-  .tabcontent ol {
+  .tabcontent ol, .tabcontent2 ol {
     padding-left: 20px;
   }
 
