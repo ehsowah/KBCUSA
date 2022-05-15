@@ -29,3 +29,6 @@
  ### cards
  https://www.w3schools.com/howto/howto_css_team.asp
  
+ ### bxSlider
+ https://bxslider.com/
+ 
