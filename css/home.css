@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,10 +119,29 @@ img {vertical-align: middle;}
 .container .contentRow {
   display:block;
   justify-content:space-around;
- padding-left: 20px;
+  /* padding-left: 20px; */
  
+}
+
+.container .contentRow iframe {
+  margin: 10px;
 }
 
 .contentRow h1{
   text-align-last: center;
+}
+
+@media (max-width: 1100px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .contentRow {
+      flex-direction: column;
+    }
+
+    .container .contentRow, .container .contentRow iframe {
+      width: 100%;
+    }
+ 
 }
