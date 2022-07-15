@@ -6,10 +6,10 @@ $(document).ready(function() {
 
         if (evt.currentTarget.id == "ka") {
             $("#nav-placeholder").load("navigationBar.html");
-            
+            loadKarenLanguage();
         } else if (evt.currentTarget.id == "en"){
             $("#nav-placeholder").load("navigationBarEnglish.html");
-        
+            loadEnglishLanguage();
         }
 
         
@@ -41,7 +41,7 @@ function loadKarenLanguage() {
 
 function loadEnglishLanguage() {
     $.ajax({
-        url: "language.json"
+        url: "json/language.json"
     }).done(function(data) {
         
         $(".lang").each(function(index, element) {
