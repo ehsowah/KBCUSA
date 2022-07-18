@@ -10,7 +10,15 @@
         "give": "Give",
         "language": "English",
         "ministryTitle": "Ministries 7 Region",
-        "chooseRegion": "Choose Region"
+        "chooseRegion": "Choose Region",
+        "dropdown1": "East Coast North Region",
+        "dropdown2": "East Coast South Region",
+        "dropdown3": "Mid-West North Region",
+        "dropdown4": "Mid-West South Region",
+        "dropdown5": "Central North Region",
+        "dropdown6": "Central South Region",
+        "dropdown7": "West Coast Region"
+        
     },
     "karen": {
         "about us": "ဘၣ်ဃးဒီးကီၢ်အံၤ",
@@ -23,6 +31,13 @@
         "give": "ဟ့ၣ်လီၤအးလီၤ",
         "language": "English",
         "ministryTitle": "တၢ်သးခုကစီၣ်တၢ်မၤတဖၣ် ကဝီၤ ၇ ကဝီၤ",
-        "chooseRegion": "ဃုထၢကဝီၤ"
+        "chooseRegion": "ဃုထၢကဝီၤ",
+        "dropdown1": "မုၢ်ထီၣ်ကလံၤစိးကဝီၤ",
+        "dropdown2": "မုၢ်ထီၣ်ကလံၤထံးကဝီၤ",
+        "dropdown3": "ခၢၣ်သးမုၢ်နုာ်ကလံၤစိးကဝီၤ<",
+        "dropdown4": "ခၢၣ်သးမုၢ်နုာ်ကလံၤထံးကဝီၤ",
+        "dropdown5": "ခၢၣ်သးကလံၤစိးကဝီၤ",
+        "dropdown6": "ခၢၣ်သးကလံၤထံးကဝီၤ",
+        "dropdown7": "မုၢ်နုာ်ကဝီၤ"
     }
 }

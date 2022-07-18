@@ -25,13 +25,13 @@
     <div class="dropdown" >
       <button onclick="myFunction()" id="dropbtn" class="lang" key="chooseRegion">ဃုထၢကဝီၤ</button>
       <div id="myDropdown" class="dropdown-content">
-        <a onclick="openTab(event, 'blank')" >မုၢ်ထီၣ်ကလံၤစိးကဝီၤ</a>
-        <a onclick="openTab(event, 'blank')">မုၢ်ထီၣ်ကလံၤထံးကဝီၤ</a>
-        <a onclick="openTab(event, 'MWN')">ခၢၣ်သးမုၢ်နုာ်ကလံၤစိးကဝီၤ</a>
-        <a onclick="openTab(event, 'blank')">ခၢၣ်သးမုၢ်နုာ်ကလံၤထံးကဝီၤ</a>
-        <a onclick="openTab(event, 'blank')">ခၢၣ်သးကလံၤစိးကဝီၤ</a>
-        <a onclick="openTab(event, 'CS')">ခၢၣ်သးကလံၤထံးကဝီၤ</a>
-        <a onclick="openTab(event, 'blank')">မုၢ်နုာ်ကဝီၤ</a>
+        <a class="lang" key="dropdown1" onclick="openTab(event, 'ECN')" >မုၢ်ထီၣ်ကလံၤစိးကဝီၤ</a>
+        <a class="lang" key="dropdown2" onclick="openTab(event, 'ECS')">မုၢ်ထီၣ်ကလံၤထံးကဝီၤ</a>
+        <a class="lang" key="dropdown3" onclick="openTab(event, 'MWN')">ခၢၣ်သးမုၢ်နုာ်ကလံၤစိးကဝီၤ</a>
+        <a class="lang" key="dropdown4" onclick="openTab(event, 'MWS')">ခၢၣ်သးမုၢ်နုာ်ကလံၤထံးကဝီၤ</a>
+        <a class="lang" key="dropdown5" onclick="openTab(event, 'CN')">ခၢၣ်သးကလံၤစိးကဝီၤ</a>
+        <a class="lang" key="dropdown6" onclick="openTab(event, 'CS')">ခၢၣ်သးကလံၤထံးကဝီၤ</a>
+        <a class="lang" key="dropdown7" onclick="openTab(event, 'blank')">မုၢ်နုာ်ကဝီၤ</a>
         
       </div>
     </div>
@@ -42,18 +42,38 @@
     <!-- Default content -->
     <div id="MWN" class="tabcontent-default">
       <h3>Mid West North</h3>
-      <iframe src="pdf/KBCUSA websitr - midwes north region.pdf" width="100%" height="1450px"></iframe>
+      <iframe src="pdf/mid west south Karen.pdf" width="100%" height="1450px"></iframe>
     </div>
 
     <!-- show only when click -->
+    <div id="ECN" class="tabcontent">
+      <h3>East Coast North</h3>
+      <iframe src="pdf/East Coast North Karen.pdf" width="100%" height="1450px"></iframe>
+    </div>
+
+    <div id="ECS" class="tabcontent">
+      <h3>East Coast South</h3>
+      <iframe src="pdf/East Coast South Karen.pdf" width="100%" height="1450px"></iframe>
+    </div>
+
     <div id="MWN" class="tabcontent">
       <h3>Mid West North</h3>
-      <iframe src="pdf/KBCUSA websitr - midwes north region.pdf" width="100%" height="1450px"></iframe>
+      <iframe src="pdf/mid west south Karen.pdf" width="100%" height="1450px"></iframe>
+    </div>
+
+    <div id="MWS" class="tabcontent">
+      <h3>Mid West South</h3>
+      <p>content not available. choose another region</p>
+    </div>
+
+    <div id="CN" class="tabcontent">
+      <h3>Central North</h3>
+      <p>content not available. choose another region</p>
     </div>
 
     <div id="CS" class="tabcontent">
       <h3>Central South</h3>
-      <iframe src="pdf/Central South merged.pdf" width="100%" height="1450px"></iframe>
+      <iframe src="pdf/Central South Karen.pdf" width="100%" height="1450px"></iframe>
     </div>
 
     <div id="blank" class="tabcontent">
