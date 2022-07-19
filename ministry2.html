@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/navigation.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/ministry.css">
     </head>
 
     <body>
@@ -14,231 +15,62 @@
         <div id="nav-placeholder"></div>
 
         <div class="topContainer">
-            <h2>တၢ်သးခုကစီၣ်တၢ်မၤ - ဝဲၤကျိာ်တဖၣ်</h2>
+            <h2 class="lang" key="departmentTitle">တၢ်သးခုကစီၣ်တၢ်မၤ - ဝဲၤကျိာ်တဖၣ်</h2>
+            <div class="dropdown" >
+              <button onclick="myFunction()" id="dropbtn" class="lang" key="chooseDepartment">ဃုထၢဝဲၤကျိၤ</button>
+              <div id="myDropdown2" class="dropdown-content">
+                <a class="lang" key="dropdown8" onclick="openTab(event, 'ed')" >တၢ်သးခုကစီၣ်</a>
+                <a class="lang" key="dropdown9" onclick="openTab(event, 'mt')">သရၣ်သမါ</a>
+                <a class="lang" key="dropdown10" onclick="openTab(event, 'women')">ပိာ်မုၣ်</a>
+                <a class="lang" key="dropdown11" onclick="openTab(event, 'youth')">သးစၢ်</a>
+                <a class="lang" key="dropdown12" onclick="openTab(event, 'blank')">ခရံာ်ဖိတၢ်ကူၣ်ဘၣ်ကူၣ်သ့</a>
+                <a class="lang" key="dropdown13" onclick="openTab(event, 'care')">တၢ်အံးထွဲကွၢ်ထွဲတၢ်ဟ့ၣ်ကူၣ်တဲသကိး</a>
+                <a class="lang" key="dropdown14" onclick="openTab(event, 'blank')">လံာ်လဲၢ်ဒီးတၢ်ဆဲးတၢ်လၤ</a>
+                <a class="lang" key="dropdown15" onclick="openTab(event, 'blank')">ကညီယွၤဂ့ၢ်ပီညါတၢ်သိၣ်လိလီၢ်ခၢၣ်သး(KTSC)</a>
+                <a class="lang" key="dropdown16" onclick="openTab(event, 'blank')">ကညီယွၤဂ့ၢ်ပီညါတၢ်သိၣ်လိလီၢ်ခၢၣ်သးဖျိကၠိ</a>
+              </div>
+            </div>
           </div>
 
         <div class="containerMinistry">
 
-            <div class="tab2">
-              <button class="tablinks2" onclick="openTab2(event, 'Min')" id="defaultOpen2">တၢ်သးခုကစီၣ်</button>
-              <button class="tablinks2" onclick="openTab2(event, 'MT')">သရၣ်သမါ</button>
-              <button class="tablinks2" onclick="openTab2(event, 'women')">ပိာ်မုၣ်</button>
-              <button class="tablinks2" onclick="openTab2(event, 'Youth')">သးစၢ်</button>
-              <button class="tablinks2" onclick="openTab2(event, 'blank2')">ခရံာ်ဖိတၢ်ကူၣ်ဘၣ်ကူၣ်သ့</button>
-              <button class="tablinks2" onclick="openTab2(event, 'care')">တၢ်အံးထွဲကွၢ်ထွဲတၢ်ဟ့ၣ်ကူၣ်တဲသကိး</button>
-              <button class="tablinks2" onclick="openTab2(event, 'blank2')">လံာ်လဲၢ်ဒီးတၢ်ဆဲးတၢ်လၤ</button>
-              <button class="tablinks2" onclick="openTab2(event, 'KTSC')">ကညီယွၤဂ့ၢ်ပီညါတၢ်သိၣ်လိလီၢ်ခၢၣ်သး(KTSC)</button>
-              <button class="tablinks2" onclick="openTab2(event, 'blank2')">ကညီယွၤဂ့ၢ်ပီညါတၢ်သိၣ်လိလီၢ်ခၢၣ်သးဖျိကၠိ</button>
+            <!-- Default content -->
+            <div id="MWN" class="tabcontent-default">
+              <h3>Youth</h3>
+              <iframe src="pdf/KBCUSA Youth Information Karen.pdf" width="100%" height="1450px"></iframe>
             </div>
         
-            <div id="Min" class="tabcontent2">
-              
-              
-        
-              <div class="row">
-                <div class="column">
-                  <div class="card">
-                    <img src="image/Picture9.png" alt="Jane" style="width:100%">
-                    <div class="cardContainer">
-                      <h4>သရၣ်ဒိၣ်ဆၣ်မူၡံမိ</h4>
-                      <p class="title">(ပှၤဟ့ၣ်ကူၣ်တၢ်)</p>
-                      <p>example@example.com</p>
-                    </div>
-                  </div>
-                </div>
-              
-                <div class="column">
-                  <div class="card">
-                    <img src="image/Picture10.png" alt="Mike" style="width:100%">
-                    <div class="cardContainer">
-                      <h4>သရၣ်ဒိၣ်ဒီကထၢၢ်လၢၢ်ထူ</h4>
-                      <p class="title">(ပှၤဟ့ၣ်ကူၣ်တၢ်)</p>
-                      <p>example@example.com</p>
-                    </div>
-                  </div>
-                </div>
-              
-                <div class="column">
-                  <div class="card">
-                    <img src="image/Picture11.png" alt="John" style="width:100%">
-                    <div class="cardContainer">
-                      <h4>သရၣ်ဒိၣ်ဖုလ့ခ့</h4>
-                      <p class="title">(ပှၤဟ့ၣ်ကူၣ်တၢ်)</p>
-                      <p>example@example.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="row">
-                <div class="column">
-                  <div class="card">
-                    <img src="image/Picture3.png" alt="Jane" style="width:100%">
-                    <div class="cardContainer">
-                      <h4>သရၣ်ဒိၣ်လၢၢ်မူမၣ်တ့ၣ်</h4>
-                      <p class="title">(ပှၤပၢၤလီၢ်ဆ့ၣ်နီၤ ၁)</p>
-                      <p>example@example.com</p>
-                    </div>
-                  </div>
-                </div>
-              
-                <div class="column">
-                  <div class="card">
-                    <img src="image/Picture4.png" alt="Mike" style="width:100%">
-                    <div class="cardContainer">
-                      <h4>သရၣ်ဒိၣ်ထံဂ့</h4>
-                      <p class="title">(ပှၤပၢၤလီၢ်ဆ့ၣ်နီၤ ၂)</p>
-                      <p>example@example.com</p>
-                    </div>
-                  </div>
-                </div>
-              
-                <div class="column">
-                  <div class="card">
-                    <img src="image/Picture1.png" alt="John" style="width:100%">
-                    <div class="cardContainer">
-                      <h4>သရၣ်အဲၣ်မှံၤ</h4>
-                      <p class="title">(ပှၤနဲၣ်တၢ် ၁)</p>
-                      <p>example@example.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="bxslider">
-                <div><img src="image/evn1.jpg" title="Caption"></div>
-                <div><img src="image/evn2.jpg" title="Caption"></div>
-                <div><img src="image/evn3.jpg" title="Caption"></div>
-                <div><img src="image/evn4.jpg" title="Caption"></div>
-                <div><img src="image/evn5.jpg" title="Caption"></div>
-              </div>
+            <div id="youth" class="tabcontent">
+              <h3>Youth</h3>
+              <iframe src="pdf/KBCUSA Youth Information Karen.pdf" width="100%" height="1450px"></iframe>
             </div>
-        
-            <div id="women" class="tabcontent2">
-              <h3>အမဲရကၤကီၢ်စၢဖှိၣ်ကညီဘျၢထံခရံာ်ဖိတၢ်အိၣ်ဖှိၣ်သကိးတၢ်အိၣ်ဖှိၣ် ပိာ်မုၣ်ကရၢဝဲၤကျိၤ</h3>
-              <br>
-              <h3>တၢ်သူၣ်ထီၣ်ဆီလီၤတၢ်ဂ့ၢ်တၢ်ကျိၤ</h3>
-              <p>ပိာ်မုၣ်ဝဲၤကျိၤအံၤ ဘၣ်တၢ်စးထီၣ်ဆီလီၤအီၤအဆိကတၢၢ်မ့ၢ်ဝဲ လၢမါမးခဲးသရံဘံၣ်အဲလၢာ်ဒီး သရၣ်မုၣ်ထူမ့ၣ်န့ၣ်လီၤ. ဖဲ ၂၀၀၈-၂၀၀၉ အဘၢၣ်စၢၤ သရၣ်မုၣ်ထူမ့ၣ်အနီၢ်ကစၢ်ဒၣ်ဝဲ ဟးလၢကီၢ်ဆဲသတဘ့ၣ်ဘၣ်တဘ့ၣ် ဒ်သိးအကပာ်ဖှိၣ်စၢ ဖှိၣ်က့ၤ ပိာ်မုၣ်တဖၣ်လၢအဟဲလၢ ဒဲကဝီၤအပူၤမ့ၢ်ဂ့ၤ, လၢကီၢ်လါအပူၤမ့ၢ်ဂ့ၤ, ကမၤသကိးဘၣ်တၢ်သးခုကစီၣ်အတၢ် မၤလၢကီၢ်အမဲရကၤအပူၤအဂီၢ်န့ၣ်လီၤ. ဖဲ ၂၀၁၀ နံၣ်န့ၣ် အမဲရကၤကီၢ်စၢဖှိၣ်ကညီဘျၢထံခရံာ်ဖိတၢ်အိၣ်ဖှိၣ်သကိးတၢ် အိၣ်ဖှိၣ်ကရၢမိၢ်ပှၢ်ပာ်ဂၢၢ်ပာ်ကျၢၤဒ်ပိာ်မုၣ်ကရၢ တဖုအိသးန့ၣ်လီၤ. ဒီးဖဲ ၂၀၁၄ နံၣ်န့ၣ် ကရၢအံၤဘၣ်တၢ်ဆီက့ၤအီၤဒ် ဝဲၤကျိၤန့ၣ်လီၤ.</p>
-              <br>
-              <h3>ခါခဲအံၤခိၣ်နၢ်တဖၣ်</h3>
-              <ol>
-                <li>ပှၤနဲၣ်တၢ် - သရၣ်မုၣ်နီၢ်မ့ၤလရံၣ်ထူအဖီလိာ်</li>
-                <li>ပှၤပၢၢလီၢ်ဆ့ၣ်နီၤ ၁ - သရၣ်မုၣ်ထဲရၣ်ကစၢၢ်စ့ကိဘၣ်</li>
-                <li>ပှၤပၢၢလီၢ်ဆ့ၣ်နီၤ ၂ - သရၣ်မုၣ်အဲၣ်ဒံနၣ်ထူ</li>
-                <li>ပှၤပၢၤစ့ - သရၣ်မုၣ်အ့မၠးၠဖူၣ်</li>
-                <li>ပှၤသမံသမိးစ့ ၁ - သရၣ်မုၣ်ဖီဂ့ၤလၣ်</li>
-                <li>ပှၤသမံသမိးစ့ ၂ - သရၣ်မုၣ်မၤသၣ်</li>
-                <li>ပှၤဟ့ၣ်ကူၣ်တၢ်တဖၣ်</li>
-                <ul>
-                  <li>(၁) သရၣ်မုၣ်ထူမ့ၣ်</li>
-                  <li>(၂) သရၣ်မုၣ်ထံမုာ်</li>
-                  <li>(၃) သရၣ်မုၣ်နံထၣ်</li>
-                  <li>(၄) သရၣ်မုၣ်ဆံးမုၢ်</li>
-                  <li>(၅) သရၣ်မုၣ်မၣ်လ့အါမုၣ်ဖိ</li>
-                </ul>
-              </ol>
-              <br>
-              <h3>တၢ်သးခုကစီၣ်အတၢ်မၤ</h3>
-              <ol>
-                တနံၣ်တဘျီတၢ်ဆီၣ်ထွဲမၤစၢၤဒ်အဖီလာ်အသိးလီၤ
-                <li>ကီၢ်ဆီထံးတၢ်မၢဖိ</li>
-                <li>ဖံသရၣ်မုၣ်စ့ဘ့ၣ်(တၢ်ကျိာ်ထံလံာ်စီဆှံလၢမီကိၣ်ကျိာ်)</li>
-                <li>သးကပီၤကရၢ (ဒဲထီမဲာ်လးဒဲကပစီၤ)</li>
-                <li>လံာ်စီဆှံကၠိဖိ ၅ ဂၤလၢကီၢ်အမဲရကၤ</li>
-                <li>တၢ်ပာ်ပနီၢ်လံာ်စီဆှံကၠိဖိ ၁၀ ဂၤလၢကီၢ်ပယီၤဒီးလၢဒဲကဝီၤပူၤ</li>
-              </ol>
-              <br>
-              <h3>တၢ်ရဲၣ်လီၤကျဲးလီၤ</h3>
-              <ol>
-                <li>တနံၣ်တဘျီခိၣ်နၢ်တၢ်မၤလိဖဲ လါယူၤ ၂ နွံတနွံ</li>
-                <li>တၢ်ထုးထီၣ်ရၤလီၤတၢ်ဂ့ၢ်မိၢ်ပှၢ်</li>
-                <li>တနံၣ်တဘျီခိၣ်နၢ်တၢ်ထံၣ်လိာ်သးမဲာ်သကိးမဲာ်</li>
-                <li>တလါတဘျီတၢ်ထုကဖၣ်ဖဲ လါလၢာ်မုၢ်အိၣ်ဘှံးနံၤဂီၤခီ</li>
-                <li>တၢ်မၤသကိးတၢ်ဒီး GKBFWomen, American Baptist Churches</li>
-                သးအိၣ်ဃ့ကညးဘၣ်လၢမိၢ်ပၢ်သရၣ်သမါတဖၣ် ကသ့ၣ်နီၣ်ပှၤလၢတၢ်ထုကဖၣ်ဒီးတၢ်ဟ့ၣ်ကူၣ်ဟ့ၣ်ဖးတဖၣ်န့ၣ်လီၤ
-              </ol>
-              <br>
-              <h3>တၢ်ဆဲးကျၢဆဲးကျိး</h3>
-              <li>သရၣ်မုၣ်မ့လရံၣ်ထူအဖီလိၤ</li>
-              <li>လီတဲစိနီၢ်ဂံၢ် - (၈၀၃)၂၆၁-၂၂၇၂</li>
-              <li>လီပရၢ - htoomaylary@gmail.com</li>
-              
-            </div>
-        
-             <div id="care" class="tabcontent2">
-              <h3>အမဲရကၤကီၢ်စၢဖှိၣ်ကညီဘျၢထံခရံာ်ဖိတၢ်အိၣ်ဖှိၣ်သကိးတၢ်အိၣ်ဖှိၣ်တၢ်ကဟုကယာ်ဒီးတၢ်ကူၣ်လိာ်တၢ်ဝဲၤကျိၤ</h3>
-              <br>
-              <h3>တၢ်သူၣ်ထီၣ်ဆီလီၤ တၢ်ဂ့ၢ်တၢ်ကျိၤ</h3>
-              <p>KBCUSA ဒုးအိၣ်ထီၣ် တၢ်ကဟုကယာ်ဒီးတၢ်ကူၣ်လိာ်တၢ်ဝဲၤကျိၤ ဒ်သိး ပကဆီၣ်ထွဲ ဒီး ဒုးဆူၣ်ထီၣ် ပတၢ်အိၣ်ဖှိၣ်တဖၣ် ခီဖျိ တၢ်ဟ့ၣ်နီၤလီၤတၢ်သ့တၢ်ဘၣ်, တၢ်ကူၣ်လိာ်တၢ်, ဒီး တၢ်ကဟုကယာ်တၢ် ဒ်သိးပကကဲထီၣ်တၢ်ကပီၤ ဒီးအိၣ်သူၣ်လီၤ ပလုၢ်ပပှ့ၤဒီးပတၢ်သဘျ့လၢ ခရံာ်အပူၤန့ၣ်လီၤ.</p>
-              <br>
-              <h3>ဆၢကတီၢ် - ၂၀၁၈ ပှၤလၢသူၣ်လီၤဆီလီၤတၢ်တဖၣ်</h3>
-              <ul>
-                <li>သရၣ်ဒိၣ်ဒီးကထၢၣ်လၢၢ်ထူ (Rev. Dr. Ler Htoo)</li>
-                <li>သရၣ်ဒိၣ်ဆၣ်မူ (Rev. Hsa Moo)</li>
-              </ul>
-              <br>
-              <h3>ခါခဲအံၤခိၣ်နၢ်တဖၣ်</h3>
-              <ol><li>သရၣ်မုၣ်ထဲစံၣ်ကဒိ (Thrahmu Tansy Kadoe)</li>
-                <li>သရၣ်ဒိၣ်ထီမၢးစ်ခၠ့းထ်ဘး (Rev. Thomas Chit Ba)</li>
-                <li>သရၣ်ဆၣ်ဘးတီ (Pastor Sa Ba Taw)</li>
-                <li>သရၣ်မုၣ်ကွံသ့ၣ်လၣ်စ့ (Chaplain Kwee Thay Lar Say)</li>
-                <li>သရၣ်မုၣ်ဒါဖီ (Thrahmu Dah Hpaw)</li>
-                <li>သရၣ်ဆၣ်အိၣ်ဖျါ (Thrah Hsar O Plah)</li>
-              </ol>
-              <br>
-              <h3>တၢ်သးခုကစီၣ်အတၢ်မၤ</h3>
-              <li>ကလၤတံ ၅း၁၃ - အဂ့ၢ်ဒ်အံၤ, ပုၢ်သ့ၣ်ဝဲၢ်သ့ၣ်ဧၢ, တၢ်ကိးက့ၤသုဆူတၢ်ထူၣ်ဖျဲးအပူၤလီၤ. ထဲတၢ်အံၤ, သုတမၤသုတၢ်ထူၣ်ဖျဲးန့ၣ်, လၢတၢ်ဒုးအိၣ်ထီၣ်ပဖံးပညၣ်အလီၢ်တဂ့ၤ. မ့မ့ၢ် လၢတၢ်အဲၣ်တၢ်ကွံန့ၣ်မၤစၢၤလိာ်သုသးတက့ၢ်. </li>
-              <li>KBCUSA တၢ်ကဟုကယာ်ဒီးတၢ်ကူၣ်လိာ်တၢ်ဝဲၤကျိၤ အတၢ်တိာ် မ့ၢ်ဒ်သိး ကဆီၣ်ထွဲ ကီၢ် အပှၤမၤသကိးတၢ် ဒီး အတၢ်သးခုကစီၣ်အတၢ်ဖံးတၢ်မၤတဖၣ် ခီဖျိ တၢ်ဟ့ၣ်ထီၣ် တၢ်မၤစၢၤ, တၢ်သိၣ်လိ, ဒီး တၢ်ကဟုကယာ်ကူၣ်လိာ်တၢ် လၢတၢ်မၤအါထီၣ်ဂ့ၤထီၣ် တၢ်အိၣ်မုာ်အိၣ်ပၢၤ လၢ သး, တၢ်တူၢ်ဘၣ်, တၢ်ရ့လိာ်မုာ်လိာ်, ဒီး နီၢ်သးန့ၣ်လီၤ. ပတၢ်မုၢ်လၢ်မ့ၢ်ဒ်သိး ပကမၤဘၣ်ယွၤဒီးခ့ပှၤအတၢ်မၤ လၢတၢ်အဲၣ်, တၢ်ဘျုးတၢ်ဖှိၣ်, ဒီး တၢ်သးအိၣ် သးကညီၤ လၢအဟဲယွၤလီၤလၢကစၢ်ခရံာ်န့ၣ်လီၤ.</li>
-              <br>
-              <h3>ၢ်ရဲၣ်လီၤကျဲၤလီၤ ကညီဖိအတၢ်လဲၤခီဖျိလၢယွၤအလၤကပီၤအဂီၢ်</h3>
-              <p>နီၢ်သးအတၢ်ဂံၢ်တၢ်ဘါလၢတၢ်ရ့လိာ်သးဒီးယွၤလၢတနံၤဘၣ်တနံၤအဂီၢ် ဘၣ်တၢ်ကွဲးအီၤ လၢ ပှၤအဂၤ ၃၄၀ လၢအအဲၣ်ယွၤဒီးသးအိၣ်မၤလၤကပီၤယွၤလၢ အတၢ်မၤဘျုးမၤဖှိၣ် ပပှၤကညီဖိတဖၣ်အဃိန့ၣ်လီၤ. လံာ်အံၤဘၣ်တၢ်ကွဲးအီၤလၢ ကီၤလၤဝါဒီးကညီကျိာ်တဖၣ် န့ၣ်လီၤ. လံာ်တၢ်ကွဲးတကဘျံးဘၣ်တကဘျံးတဖၣ်အပူၤ, ယွၤဟ့ၣ်ထီၣ်အခီပညီဒီး တၢ်မၤဘျါတဖၣ် ဆူပှၤတဖၣ်လၢအဟ့ၣ်ခီဟ့ၣ်နီၤလီၤအတၢ်လဲၤခီဖျိတဖၣ်, ဒီး ပှၤတဖၣ်လၢ အဖးဘၣ်တၢ်လဲၤခီဖျိတဖၣ်အံၤလီၤ.</p>
-              <br>
-              <h3>ကွၢ်နဲတၢ်ဂီၤမူဖိတခါအံၤလၢနကသ့ၣ်ညါအါထီၣ် လံာ်တဘ့ၣ်အံၤအဂ့ၢ်န့ၣ်တက့ၢ်</h3>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Tv9aDgZsBFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <br>
-              <h3>လၢနကပှ့ၤဖးလံာ်အံၤအဂီၢ်, လဲၤဆူ <a href="http://kbcusadd.org">http://kbcusadd.org</a> တက့ၢ်.</h3>
-              <br>
-              <h3>တၢ်မုၢ်လၢ်အတၢ်လဲၤ - တၢ်မၤသီထီၣ်တၢ်မုၢ်လၢ်ခီဖျိတၢ်မၤသကိးတၢ်</h3>
-              <p>တၢ်ရဲၣ်လီၤကျဲၤလီၤအံၤ ကွဲမုာ်ဝဲ တၢ်အိၣ်ဖှိၣ်သရၣ်တဖၣ်, ခိၣ်နၢ်တဖၣ်, ဒီး ပှၤကဟုကယာ်တၢ် တဖၣ်လၢ ကလဲၤတၢ်သကိးဒ်သိးသိး လၢတၢ်မၤဘျါက့ၤတၢ် အတၢ်လဲၤအပူၤ ခီဖျိ တၢ်ဟ့ၣ်ခီဟ့ၣ်နီၤလီၤသးလၢ တၢ်လီၤမၢ်တဖၣ် ဒီး တၢ်မၤသီက့ၤတၢ်မုၢ်လၢ် ခီဖျိ တၢ်အုၣ်သးဒီးတၢ်ဘျးစဲလိာ်သးန့ၣ်လီၤ. နမ့ၢ်အဲၣ်ဒိး ကျဲၤနဲတၢ်ရဲၣ်လီၤကျဲၤလီၤတခါအံၤလၢ နပှၤတဝၢအပူၤအဃိ ဝံသးစူၤဆဲးကျၢပှၤတက့ၢ်.</p>
-              <br>
-              <h3> အဂုၤအဂၤ</h3>
-              <li><a href="http://friendsofburma.org/static/docs/pastoral_counseling.pdf">ခရံာ်ဖိတၢ်ကဟုကယာ်သးအတၢ်အိၣ်ဆူၣ်အိၣ်ချ့ (Pastoral Counseling Book)</a></li>
-              <li><a href="https://drive.google.com/drive/u/0/folders/0B19u6GPALdafcm5IOVNGLWxLYlU">တၢ်အိၣ်ကတီၤဆိပာ်သးလၢခရံာ်ဖိတၢ်ဆီဟံၣ်ဆီဃီအဂီၢ် (Pre-marital Counseling Book)</a></li>
-              <li><a href="https://drive.google.com/drive/u/0/folders/0B19u6GPALdafV1U5X21vVm1ycVE">ခရံာ်ဖိတၢ်ပာ်တၢ်အဲၣ်တီ (Christian Dating)</a></li>
-              <li>လၢတၢ်ဟ့ၣ်တၢ်မၤလိ ဒီး တၢ်မၤစၢၤအဂၤအဂီၢ်, ဝံးသးစူၤဆဲးကျၢပှၤဖဲ (For training and resources, please contact us at) karendevotionals@gmail.com. </li>
-              <br>
-              <h3>ဆဲးကျိး</h3>
-              <li>သရၣ်မုၣ်ထဲစံၣ်ဒိ</li>
-              <li>လီတဲစိ - (၆၂၃)၅၂၁-၀၂၈၅</li>
-              <li>လီပရၢ - karendevotionals@gmail.com</li>
-            </div>
-        
-            
-        
-            <div id="MT" class="tabcontent">
-              <h3>Minister</h3>
-              <iframe src="pdf/KBC.USA.M.T.pdf" width="100%" height="500px"></iframe>
-            </div>
-        
-            
-            <div id="Youth" class="tabcontent">
-              <h3>Youth Department</h3>
-              <img src="image/youth.jpeg" width="100%">
-              <iframe src="pdf/KBCUSA Youth Information.pdf" width="100%" height="500px"></iframe>
-            </div>
-        
-            <div id="KTSC" class="tabcontent2">
-              <a href="https://ktscusa.org/give/" target="_blank">​နုာ်ကွၢ်ဖဲအံၤ</a>
-            </div>
-        
-            <div id="blank2" class="tabcontent2">
-              <h3>Title</h3>
-              <p>Content will be add later...</p>
-            </div>
-        
-          </div>
-        
 
+            <div id="care" class="tabcontent">
+              <h3>Care Counseling</h3>
+              <iframe src="pdf/KBCUSA-CareCounseling Karen English.pdf" width="100%" height="1450px"></iframe>
+            </div>
+
+            <div id="women" class="tabcontent">
+              <h3>Women</h3>
+              <iframe src="pdf/women department Karen.pdf" width="100%" height="1450px"></iframe>
+            </div>
+
+            <div id="ed" class="tabcontent">
+              <h3>KBCUSA ED</h3>
+              <iframe src="pdf/KBCUSA ED Karen.pdf" width="100%" height="1450px"></iframe>
+            </div>
+
+            <div id="mt" class="tabcontent">
+              <h3>KBCUSA M.T</h3>
+              <iframe src="pdf/KBC.USA.M.T Karen.pdf" width="100%" height="1450px"></iframe>
+            </div>
+        
+            <div id="blank" class="tabcontent">
+              <h3>Content not available</h3>
+              <p>Choose another...</p>
+            </div>
+
+        </div>
 
         <!-- Footer bar -->
         <div id="footer-placeholder"></div>
@@ -246,7 +78,7 @@
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="js/navAndFooterLoader.js"></script>
         <script src="js/home.js"></script>
-        
+        <script src="js/ministry.js"></script>
     </body>
 
 </html>

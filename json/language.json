@@ -10,14 +10,25 @@
         "give": "Give",
         "language": "English",
         "ministryTitle": "Ministries 7 Region",
+        "departmentTitle": "Departments",
         "chooseRegion": "Choose Region",
+        "chooseDepartment": "Choose Department",
         "dropdown1": "East Coast North Region",
         "dropdown2": "East Coast South Region",
         "dropdown3": "Mid-West North Region",
         "dropdown4": "Mid-West South Region",
         "dropdown5": "Central North Region",
         "dropdown6": "Central South Region",
-        "dropdown7": "West Coast Region"
+        "dropdown7": "West Coast Region",
+        "dropdown8": "Evangelism",
+        "dropdown9": "Ministers",
+        "dropdown10": "Women",
+        "dropdown11": "Youth",
+        "dropdown12": "Christian Education",
+        "dropdown13": "Care Counseling",
+        "dropdown14": "Language and Literature",
+        "dropdown15": "Karen Theological Study Center",
+        "dropdown16": "KTSCAA"
         
     },
     "karen": {
@@ -31,6 +42,8 @@
         "give": "ဟ့ၣ်လီၤအးလီၤ",
         "language": "English",
         "ministryTitle": "တၢ်သးခုကစီၣ်တၢ်မၤတဖၣ် ကဝီၤ ၇ ကဝီၤ",
+        "departmentTitle": "တၢ်သးခုကစီၣ်တၢ်မၤ - ဝဲၤကျိာ်တဖၣ်",
+        "chooseDepartment": "ဃုထၢဝဲၤကျိၤ",
         "chooseRegion": "ဃုထၢကဝီၤ",
         "dropdown1": "မုၢ်ထီၣ်ကလံၤစိးကဝီၤ",
         "dropdown2": "မုၢ်ထီၣ်ကလံၤထံးကဝီၤ",
@@ -38,6 +51,15 @@
         "dropdown4": "ခၢၣ်သးမုၢ်နုာ်ကလံၤထံးကဝီၤ",
         "dropdown5": "ခၢၣ်သးကလံၤစိးကဝီၤ",
         "dropdown6": "ခၢၣ်သးကလံၤထံးကဝီၤ",
-        "dropdown7": "မုၢ်နုာ်ကဝီၤ"
+        "dropdown7": "မုၢ်နုာ်ကဝီၤ",
+        "dropdown8": "တၢ်သးခုကစီၣ်",
+        "dropdown9": "သရၣ်သမါ",
+        "dropdown10": "ပိာ်မုၣ်",
+        "dropdown11": "သးစၢ်",
+        "dropdown12": "ခရံာ်ဖိတၢ်ကူၣ်ဘၣ်ကူၣ်သ့",
+        "dropdown13": "တၢ်အံးထွဲကွၢ်ထွဲတၢ်ဟ့ၣ်ကူၣ်တဲသကိး",
+        "dropdown14": "လံာ်လဲၢ်ဒီးတၢ်ဆဲးတၢ်လၤ",
+        "dropdown15": "ကညီယွၤဂ့ၢ်ပီညါတၢ်သိၣ်လိလီၢ်ခၢၣ်သး(KTSC)",
+        "dropdown16": "ကညီယွၤဂ့ၢ်ပီညါတၢ်သိၣ်လိလီၢ်ခၢၣ်သးဖျိကၠိ"
     }
 }

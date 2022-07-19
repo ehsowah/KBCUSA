@@ -199,3 +199,8 @@ button:hover {
   .show {
     display: block;
   }
+
+  .dropbtn .fa {
+      padding: 0px;
+      width: 10px;
+  }
