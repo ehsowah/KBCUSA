@@ -21,7 +21,18 @@
         <nav>
             <ul class="nav_links">
                 <li><a href="index.html">Home</a></li>
-                <li> <a href="ministry.html">Ministries</a></li>
+                <!-- <li> <a href="ministry.html">Ministries</a></li> -->
+                <li>
+                    <div class="dropdown-nav">
+                        <button class="dropbtn" onclick="myNavFunction()">Ministries
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content-nav" id="myDropdown">
+                            <a href="ministry.html">7 Regions</a>
+                            <a href="ministry2.html">Departments</a>
+                          </div>
+                    </div>
+                </li>   
                 <li><a herf="index.html">Partner Ministries</a></li>
                 <li><a herf="#">Events</a></li>
                 <li><a href="#">News</a></li>
@@ -41,6 +52,7 @@
     <script src="js/myScript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js/language.js"></script>    
+    <script src="js/navbar.js"></script>
 </body>
 
     
