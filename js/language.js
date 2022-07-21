@@ -1,13 +1,14 @@
 $(document).ready(function() {
-    
 
     $(".lang-menu").click( evt => {
        
-
         if (evt.currentTarget.id == "ka") {
+            Cookies.set("language", "ka", {expires: 3});
+
             $("#nav-placeholder").load("navigationBar.html");
             loadKarenLanguage();
         } else if (evt.currentTarget.id == "en"){
+            Cookies.set("language", "en", {expires: 3});
             $("#nav-placeholder").load("navigationBarEnglish.html");
             loadEnglishLanguage();
         }
