@@ -32,3 +32,10 @@
  ### bxSlider
  https://bxslider.com/
  
+
+ ### TO DO LIST
+ 1. type the introduction
+ 2. update the home page
+ 3. create history to PDF
+ 4. adding more pictures
+ 5. link to www.kbcusa.org
