@@ -30,7 +30,12 @@
         "dropdown15": "Karen Theological Study Center",
         "dropdown16": "KTSCAA",
         "history": "History",
-        "his-title": "Karen Baptist Churches USA Brief History"
+        "his-title": "Karen Baptist Churches USA Brief History",
+        "winner": "Saw Winner",
+        "email": "Email",
+        "roland": "Lauleh Roland",
+        "officePhone": "Phone: (651) 207-7810",
+        "officeEmail": "Email: Kbcusaoffice@gmail.com"
         
     },
     "karen": {
@@ -64,6 +69,11 @@
         "dropdown15": "ကညီယွၤဂ့ၢ်ပီညါတၢ်သိၣ်လိလီၢ်ခၢၣ်သး(KTSC)",
         "dropdown16": "ကညီယွၤဂ့ၢ်ပီညါတၢ်သိၣ်လိလီၢ်ခၢၣ်သးဖျိကၠိ",
         "history": "တၢ်စံၣ်စိၤတဲစိၤ",
-        "his-title": "အမဲရကၤ ကညီဘျၢထံခရံာ်ဖိတၢ်အိၣ်ဖှိၣ်သကိးတၢ်အိၣ်ဖှိၣ် တၢ်စံၣ်စိာ်တဲစိာ်ဖုၣ်ကိာ်"
+        "his-title": "အမဲရကၤ ကညီဘျၢထံခရံာ်ဖိတၢ်အိၣ်ဖှိၣ်သကိးတၢ်အိၣ်ဖှိၣ် တၢ်စံၣ်စိာ်တဲစိာ်ဖုၣ်ကိာ်",
+        "winner": "အတံစီၤဝ့နၢၣ်",
+        "email": "လီပရၢ",
+        "roland": "သရၣ်လီၤအဲၣ်ရိလဲ",
+        "officePhone": "လီတဲစိ: (၆၅၁) ၂၀၇-၇၈၁၀",
+        "officeEmail": "လီပရၢ: Kbcusaoffice@gmail.com"
     }
 }
