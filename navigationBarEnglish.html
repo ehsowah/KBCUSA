@@ -7,7 +7,7 @@
 <body>
     <header>
         <!-- Logo image -->
-        <img class="logo" src="image/logo.png" alt="logo">
+        <a href="index.html"><img class="logo" src="image/logo.png" alt="logo"></a>
         <!-- hamburger menu -->
         <a href="#" class="toggle-button">
             <span class="bar"></span>
@@ -20,7 +20,20 @@
         <!-- List of navigation link -->
         <nav>
             <ul class="nav_links">
-                <li><a href="index.html">Home</a></li>
+                <li>
+                    <div class="dropdown-nav">
+                        <button class="dropbtn" onclick="myNavFunction()">About
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content-nav" id="myDropdown">
+                            <a href="">Mission Statement</a>
+                            <a href="history.html">History</a>
+                            <a href="">Leadership</a>
+                            <a href="">Members</a>
+                            <a href="">Contact</a>
+                          </div>
+                    </div>
+                </li>
                 <!-- <li> <a href="ministry.html">Ministries</a></li> -->
                 <li>
                     <div class="dropdown-nav">
