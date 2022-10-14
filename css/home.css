@@ -10,6 +10,10 @@
     padding: 10px 10%;
 }
 
+.containerLeader {
+  padding: 10px 10%;
+}
+
 .hero-text {
   color: rgb(41, 41, 41);
   font-family: "Montserrat", sans-serif;
