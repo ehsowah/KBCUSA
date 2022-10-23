@@ -1,0 +1,13 @@
+.topContainer {
+    background-image: linear-gradient(rgb(115,198,240), rgb(115,198,240));
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10%;
+  }
+
+  .midContainer {
+    padding: 10px 10%;
+}
+
