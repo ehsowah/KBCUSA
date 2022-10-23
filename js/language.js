@@ -12,8 +12,6 @@ $(document).ready(function() {
             $("#nav-placeholder").load("navigationBarEnglish.html");
             loadEnglishLanguage();
         }
-
-        
     });
 });
 
@@ -24,18 +22,6 @@ function loadKarenLanguage() {
         
         $(".lang").each(function(index, element) {
             $(this).text(data.karen[$(this).attr('key')]);
-            
-            $("h1").css("font-size", "60px");
-
-            // $(this).hover(function(){
-            //     $(this).css("color", "#0088a9");
-            //     $("h1").css("color", "white");
-            //     }, function(){
-            //     $(this).css("color", "black");
-            //     $("button").css("color", "white");
-            //     $("h1").css("color", "white");
-            //   });
-              
         })
     })
 }
@@ -47,9 +33,6 @@ function loadEnglishLanguage() {
         
         $(".lang").each(function(index, element) {
             $(this).text(data.english[$(this).attr('key')]);
-            $(this).css("font-family","Montserrat")
-            $(this).css("font-size", "16px");
-            $("h1").css("font-size", "40px");
         })
     })
 }

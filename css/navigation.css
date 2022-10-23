@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@font-face {
-    font-family: 'Saw cfcr000';
-    src: url('Saw cfcr000.eot?#iefix') format('embedded-opentype'), 
-    url('Saw cfcr000.ttf')  format('truetype'),
-    url('Saw cfcr000.svg#svgSaw cfcr000') format('svg');
-  }
 
 * {
     box-sizing: border-box;
@@ -44,11 +38,13 @@ header {
     padding: 0px 20px;
 }
 
-.nav_links li a {
+.nav_links li a, .nav_links li button {
+    text-decoration: none;
     transition: all 0.3s ease 0s;
+    color: black;
 }
 
-.nav_links li a:hover {
+.nav_links li a:hover, .nav_links li button:hover {
     color: #0088a9;
 }
 
@@ -103,11 +99,9 @@ button:hover {
   }
 
 @media (max-width: 1500px) {
-    li, a, button {
+    li, a, button, .nav_links button {
         font-size: 12px;
     }
-
-    
 }
 
 @media (max-width: 1300px) {
@@ -133,7 +127,7 @@ button:hover {
         padding: .5rem 1rem;
     }
 
-    .nav_links.active {
+    .nav_links.activeLink {
         display: flex;
         flex-direction: column;
         background-color: white;
@@ -156,7 +150,7 @@ button:hover {
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    /* border-bottom: 1px dotted black; */
   }
   
   .tooltip .tooltiptext {
@@ -203,10 +197,6 @@ button:hover {
   .dropbtn:hover {
       background-color: white;
   }
-
-  
-  
-  
 
   .show {
     display: block;
