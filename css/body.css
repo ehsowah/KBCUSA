@@ -7,7 +7,32 @@
     padding: 10px 10%;
   }
 
+  .topContainer h2 {
+    font-family: "Montserrat", sans-serif;
+  }
+
   .midContainer {
     padding: 10px 10%;
 }
+
+.midContainer h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 25px; 
+  color: #444444;
+  /* text-decoration: none; */
+}
+
+.midContainer p {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.midContainer a img {
+  width: 50px;
+  height: 50px;
+}
+
+
 
