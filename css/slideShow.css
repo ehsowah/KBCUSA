@@ -10,6 +10,11 @@
     padding: 10px 10%;
 }
 
+.container img {
+  width: 100%;
+  padding: 10%;
+}
+
 .containerLeader {
   padding: 10px 10%;
 }
