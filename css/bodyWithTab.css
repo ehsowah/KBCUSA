@@ -49,6 +49,18 @@
   padding: 10px 10%;
 }
 
+.dividerContainer {
+  background-image: linear-gradient(rgba(115, 198, 240, 0.695), rgb(255, 255, 255)), url("/image/landingImg.jpg");
+   background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10%;
+}
+
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
