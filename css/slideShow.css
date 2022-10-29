@@ -8,6 +8,11 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px 10%;
+    
+}
+
+.container .contentRow {
+  margin: 10px;
 }
 
 .container img {
@@ -132,9 +137,9 @@ img {vertical-align: middle;}
  
 }
 
-.container .contentRow iframe {
+/* .container .contentRow iframe {
   margin: 10px;
-}
+} */
 
 .contentRow h1{
   text-align-last: center;
