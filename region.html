@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/body.css">
   <link rel="stylesheet" href="css/bodyWithTab.css">
+   <!-- Brick Theme -->
+   <!-- <link href="/path/to/dist/css/smart_tab_brick.min.css" rel="stylesheet" /> -->
+   <link href="css/smart_tab_brick.min.css" rel="stylesheet" />
 
 </head>
 
@@ -18,7 +21,7 @@
 
   <div class="topContainer">
     <h2 class="lang" key="ministryTitle">တၢ်သးခုကစီၣ်တၢ်မၤတဖၣ် ကဝီၤ ၇ ကဝီၤ</h2>
-    <div class="dropdown" >
+    <!-- <div class="dropdown" >
       <button onclick="myFunction()" id="dropbtn" class="lang" key="chooseRegion">ဃုထၢကဝီၤ</button>
       <div id="myDropdown" class="dropdown-content">
         <a class="lang" key="dropdown1" onclick="openTab(event, 'ECN')" >မုၢ်ထီၣ်ကလံၤစိးကဝီၤ</a>
@@ -29,69 +32,84 @@
         <a class="lang" key="dropdown6" onclick="openTab(event, 'CS')">ခၢၣ်သးကလံၤထံးကဝီၤ</a>
         <a class="lang" key="dropdown7" onclick="openTab(event, 'blank')">မုၢ်နုာ်ကဝီၤ</a>
         
-      </div>
+      </div> -->
     </div>
   </div>
 
   <div class="midContainer">
+   
 
-    <!-- Default content -->
-    <div id="MWN" class="tabcontent-default">
-      <h3>Mid West North</h3>
-      <p>The information are not available yet...</p>
-      <br>
+  <div id="smarttab">
 
-      <h3>For more information</h3>
-      <a href="pdf/mid west north Karen.pdf" target="_blank"><img src="image/pdf-icon.png" alt="pdf"></a>
+    <!-- Tabs -->
+    <ul class="nav">
+      <li>
+        <a class="nav-link" href="#tab-1">
+          မုၢ်ထီၣ်ကလံၤစိးကဝီၤ
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#tab-2">
+          မုၢ်ထီၣ်ကလံၤထံးကဝီၤ
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#tab-3">
+          ခၢၣ်သးမုၢ်နုာ်ကလံၤစိးကဝီၤ
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#tab-4">
+          ခၢၣ်သးမုၢ်နုာ်ကလံၤထံးကဝီၤ
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#tab-5">
+          ခၢၣ်သးကလံၤစိးကဝီၤ
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#tab-6">
+          ခၢၣ်သးကလံၤထံးကဝီၤ
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#tab-7">
+          မုၢ်နုာ်ကဝီၤ
+        </a>
+      </li>
+     
+    </ul>
+  
+    <!-- Tabbed Content -->
+    <div class="tab-content">
+      <div id="tab-1" class="tab-pane" role="tabpanel">
+        Tab content 1
+      </div>
+      <div id="tab-2" class="tab-pane" role="tabpanel">
+        Tab content 2
+      </div>
+      <div id="tab-3" class="tab-pane" role="tabpanel">
+        Tab content 3
+      </div>
+      <div id="tab-4" class="tab-pane" role="tabpanel">
+        Tab content 4
+      </div>
+      <div id="tab-5" class="tab-pane" role="tabpanel">
+        Tab content 5
+      </div>
+      <div id="tab-6" class="tab-pane" role="tabpanel">
+        Tab content 6
+      </div>
+      <div id="tab-7" class="tab-pane" role="tabpanel">
+        Tab content 7
+      </div>
     </div>
-
-    <!-- show only when click -->
-    <!-- East Coast North -->
-    <div id="ECN" class="tabcontent">
-      <h3>East Coast North</h3>
-      <p>The information are not available yet...</p>
-      <br>
-
-      <h3>For more information</h3>
-      <a href="pdf/East Coast North Karen.pdf" target="_blank"><img src="image/pdf-icon.png" alt="pdf"></a>
-    </div>
-
-    <!-- East Coast South -->
-    <div id="ECS" class="tabcontent">
-      <h3>East Coast South</h3>
-      <p>The information are not available yet...</p>
-      <br>
-
-      <h3>For more information</h3>
-      <a href="pdf/East Coast South Karen.pdf" target="_blank"><img src="image/pdf-icon.png" alt="pdf"></a>
-    </div>
-
-    <!-- Mid West South -->
-    <div id="MWS" class="tabcontent">
-      <h3>Mid West South</h3>
-      <p>The information are not available yet...</p>
-    </div>
-
-    <div id="CN" class="tabcontent">
-      <h3>Central North</h3>
-      <p><a href="https://kbcusa.netlify.app/" target="_blank">visit the website</a></p>
-      
-    </div>
-
-    <div id="CS" class="tabcontent">
-      <h3>Central South</h3>
-      <p>The information are not available yet...</p>
-      <br>
-
-      <h3>For more information</h3>
-      <a href="pdf/Central South merged.pdf" target="_blank"><img src="image/pdf-icon.png" alt="pdf"></a>
-    </div>
-
-    <div id="blank" class="tabcontent">
-      <h3>Content not available</h3>
-      <p>Choose another...</p>
-    </div>
+    
   </div>
+  </div>
+
+  
 
   <!-- Footer bar -->
   <div id="footer-placeholder"></div>
@@ -101,6 +119,10 @@
   <script src="js/bodyWithTab.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+  
+  <script src="js/jquery.smartTab.min.js"></script>
+  <script src="js/jquery.smartTab.js"></script>
+  <script src="js/loadSmartTab.js"></script>
 </body>
 
 </html>

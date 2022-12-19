@@ -1,8 +1,8 @@
 $(function(){
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // some code..
-        modifyForDevices();
-       } else {
+        // modifyForDevices();
+    //    } else {
         var myCookie = Cookies.get('language');
         console.log(myCookie)
       
@@ -16,7 +16,7 @@ $(function(){
       
           
           $("#footer-placeholder").load("footer.html");
-       }
+    //    }
   
   });
 
