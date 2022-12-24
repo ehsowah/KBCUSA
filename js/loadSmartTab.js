@@ -23,7 +23,7 @@ $('#smarttab').smartTab({
   
       // <a href="https://www.jqueryscript.net/animation/">Animation</a> effect on navigation
       // none|fade|slideHorizontal|slideVertical|slideSwing|css(Animation CSS class also need to specify)
-      animation: 'slideSwing',
+      animation: 'slideHorizontal',
       
       // Animation speed.
       speed: '400',
