@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="css/navigation.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/convertfont.css">
+        <link href="css/smart_tab_brick.min.css" rel="stylesheet" />
     </head>
 
     <body>
@@ -17,72 +19,48 @@
             <h2 class="lang" key="history">တၢ်စံၣ်စိၤတဲစိၤ</h2>
           </div>
            
+
+  
+
           <div class="midContainer">
-            <h3 class="lang" key="his-title">Karen Baptist Churches USA Brief History</h3>
-            <p>The Karen Baptist Leaders met the first time and discussed about the dream to form a Karen Baptist organization in the United States on October 22-23, 2008 in Dallas Texas.</p>
-            <br>
-            <h3>The participants were </h3>
-            <ol>
-	  
-                <li>Rev.Tha Hgay</li>
-                <li>Rev.Hsa Moo</li>
-                <li>Rev. Saw Ler Htoo</li>
-                <li>Rev. Htee Gay</li>
-                <li>Rev. Lincoln</li>
-                <li>Rev. Gentle Crown</li>
-                <li>Rev. Roger Poo Nyo</li>
-                <li>Thra John Du</li>
-                <li>Daniel Htoo</li>
-                <li>Dr. Angelene Naw</li>
-                <li>Thramu Htee Mu</li>
-                <li>Thramu Htoo May</li>
-                <li>Thra Htaw Meh</li>
-                <li>Thra Heh Nay Thaw</li>
-                <li>Thra Tha Hser Tun</li>
-                <li>Thra Htee Set</li>
-                <li>Thramu Cecilia Poo Nyo</li>
-                <li>Thra Kneh Lay</li>
-               <li> Thra Hto Lwi</li> 
-                <li>Thramu Mar Tha</li>
-               <li> Thramu Aye Aye Thaw</li>
-            </ol>
-            <br>
-            <h3>There was a second meeting that took place through a telephone conference on April 28, 2009 and 32 participants joined the telephone conference meeting. We all agreed and decided to form Karen Baptist Churches USA and assigned </h3>
-            <ol>
-                <li>Rev. Tha Hgay as Chairperson</li>
-                <li>Rev. Hsa Moo as Vice Chairperson</li>
-                <li>Rev. Saw Ler Htoo as Secretary</li>
-                <li>Thramu Aye Aye Thaw as Secretary 2</li>
-            </ol>
-            <br>
-            <h3>The third meeting was held on June 26, 2009 in Pasadena, CA and we discussed and decided to form KBCUSA with seven regions.</h3>
-            <ol>
-                <li>East Coast South</li>
-                <li>East Coast North</li>
-                <li>Midwest South</li>
-                <li>Midwest North</li>
-                <li>Central South</li>
-                <li>Central North</li>
-                <li>West Coast</li>
-            </ol>
-            <br>
-            <h3>KBCUSA First Mass Meeting was held on July 22-23, 2009 in Fort Wyne, IN and the meeting assigned the Board of KBCUSA as follows:</h3>
-            <ol>
-                <li>Rev. Tha Hgay (Chairperson)</li>
-                <li>Rev. Hsa Moo (Vice Chairperson)</li>
-                <li>Rev. Saw Ler Htoo (General Secretary)</li>
-                <li>Thramu Aye Aye Thaw (Associate General Secretary)</li>
-                <li>Thra Josiah (Treasurer) </li>
-                <li>Thramu Htoo May (Women’s Director)</li>
-                <li>Thra Mu Kapaw (Youth Director)</li>
-                <li>Rev. Lincoln (Chairperson of East Coast South)</li>
-                <li>Rev. Gentle Crown (East Coat North)</li>
-                <li>Rev. Roger Poo Nyo (Midwest South) </li>
-                <li>Thra John Du (Midwest North)</li>
-                <li>Thra Hsa Htwel (Central South)</li>
-                <li>Thra Lermu Martin (Central North)</li>
-                <li>Thra Tha Hser Tun (West Coast)</li>
-            </ol>
+
+            <div id="smarttab">
+
+                <!-- Tabs -->
+                <ul class="nav">
+                  <li>
+                    <a class="nav-link" href="#tab-1">
+                      <p class="lang" key="dropdown">ဖုသရၣ်ဒိၣ်သးဂ့ၤအသးသမူအဂ့ၢ်</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#tab-2">
+                      <p class="lang" key="dropdown">KBCUSA တၢ်စံၣ်စိၤတဲစိၤ</p>
+                    </a>
+                  </li>
+                 
+                </ul>
+            
+                <!-- Tabbed Content -->
+                <div class="tab-content">
+            
+                  <div id="tab-1" class="tab-pane" role="tabpanel">
+                    <!-- East Coast North -->
+                    <div id="puthagay"></div>
+                  </div>
+            
+                  <div id="tab-2" class="tab-pane" role="tabpanel">
+                   <!-- East Coast South -->
+                   <div id="kbcusa"></div>
+                  </div>
+            
+                  
+            
+                </div>
+                
+              </div>
+
+           
         
         </div>
           
@@ -95,7 +73,13 @@
         <script src="js/navAndFooterLoader.js"></script>
         <script src="js/home.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+        <script src="js/bodyWithTab.js"></script>
+        <script src="js/loadHistoryViews.js"></script>
         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/jquery.smartTab.min.js"></script>
+        <script src="js/jquery.smartTab.js"></script>
+        <script src="js/loadSmartTab.js"></script>
     </body>
 
 </html>
