@@ -1,2 +1,2 @@
-$("#youth").load("departmentviews/youth.html")
-$("#women").load("departmentviews/women.html")
+$("#youth").load("departmentViews/youth.html")
+$("#women").load("departmentViews/women.html")
